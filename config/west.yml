@@ -4,6 +4,8 @@ manifest:
       url-base: https://github.com/petejohanson
     - name: badjeff
       url-base: https://github.com/badjeff
+    - name: minhe7735 
+      url-base: https://github.com/minhe7735
     # Additional modules containing boards/shields/custom code can be listed here as well
     # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
   projects:
@@ -20,5 +22,8 @@ manifest:
     - name: zmk-input-behavior-listener
       remote: badjeff
       revision: main
+    - name: prospector-zmk-module
+      remote: minhe7735 
+      revision: reduce-size
   self:
     path: config
