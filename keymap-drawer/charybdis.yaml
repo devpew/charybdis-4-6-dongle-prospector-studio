@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: charybdis, layout_name: charybdis_6col_layout}
 layers:
   Base: [ESC, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', DEL, TAB, Q, W, E, R, T, Y, U, I, O, P, '[', ESC, A, S, D, F, G, H, J, K, L, ;, '''', LSHFT, Z, X,
-    C, V, B, N, M, ',', ., /, ']', Mouse, RET, LEFT GUI, LEFT ALT, Symbol, LCTRL, SPACE, BSPC]
+    C, V, B, N, M, ',', ., /, ']', Mouse, RET, LEFT GUI, LCTRL, SPACE, LEFT ALT, SPACE, BSPC]
   Mouse:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
