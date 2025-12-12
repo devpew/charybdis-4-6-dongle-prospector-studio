@@ -18,7 +18,7 @@
 #
 ---
 include:
-  - board: nice_nano
+  - board: nice_nano@2.0.0
     shield: charybdis_dongle
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
@@ -33,10 +33,10 @@ include:
 
   - board: xiao_ble
     shield: settings_reset
-  - board: nice_nano
+  - board: nice_nano@2.0.0
     shield: settings_reset
 
-  - board: nice_nano
+  - board: nice_nano@2.0.0
     shield: charybdis_left
-  - board: nice_nano
+  - board: nice_nano@2.0.0
     shield: charybdis_right
