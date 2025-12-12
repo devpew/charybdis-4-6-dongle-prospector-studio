@@ -18,25 +18,25 @@
 #
 ---
 include:
-  - board: nice_nano_v2
+  - board: nice_nano
     shield: charybdis_dongle
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
-  - board: seeeduino_xiao_ble
+  - board: xiao_ble
     shield: charybdis_dongle prospector_adapter
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
-  - board: seeeduino_xiao_ble
+  - board: xiao_ble
     shield: charybdis_dongle
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
 
-  - board: seeeduino_xiao_ble
+  - board: xiao_ble
     shield: settings_reset
-  - board: nice_nano_v2
+  - board: nice_nano
     shield: settings_reset
 
-  - board: nice_nano_v2
+  - board: nice_nano
     shield: charybdis_left
-  - board: nice_nano_v2
+  - board: nice_nano
     shield: charybdis_right
